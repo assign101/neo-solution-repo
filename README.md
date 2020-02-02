@@ -44,6 +44,20 @@ Neo Airlines container platform is built on AWS EKS(Elastic Kubernetes Service) 
          
         
 2)	A GITHUB repo to demonstrate Infrastructure provisioning templates/files to provision “your JAR/WAR” Application environment
+    Target application environment is a EKS Kubernetes Cluster. EKS infrastructure was provision manual via AWS management console.
+ Screen shots below.
+![EKS](images/cluster.png)
+![EKS](images/pods.png)
+![EKS](images/eksconsole.png)
+![EKS](images/eksnodes.png)
+
+
+ 
+    
+                 
+        
+    
+    
 3)	Provisioned infrastructure should be well defined with proper tagging and naming conventions.
 4)	Provisioned infrastructure and deployed services should be secured and have well defined security groups and ACL’s to restrict access.
 5)	Deploy “Your JAR/WAR” file using the CI/CD pipeline to Test.
