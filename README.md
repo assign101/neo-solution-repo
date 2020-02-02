@@ -80,7 +80,9 @@ Neo Airlines container platform is built on AWS EKS(Elastic Kubernetes Service) 
  
 6)	Instrumentation of CI/CD pipelines with monitoring to present number of deployments, using a presentation layer like Grafana.
 
-
+https://github.com/assign101/monitoring.git
 
 A High-level architecture to demonstrate how you approached the problem and your solution is required.
 Explanation of the code and working demo of Jenkins pipeline is required.
+
+Explained above
