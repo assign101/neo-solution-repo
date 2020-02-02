@@ -61,9 +61,26 @@ Neo Airlines container platform is built on AWS EKS(Elastic Kubernetes Service) 
 ![EKS](images/secnode.png)
 
 5)	Deploy “Your JAR/WAR” file using the CI/CD pipeline to Test.
+       https://github.com/assign101/demo-spring-boot.git
+       Branch : develop
+    ![EKS](images/branching.png)
+  
+   Jenkins URL for CI/CD pipelines :
+      http://13.211.175.157:8080
+      user: admin/welcome123
+         
+ Provisioned pods
+ ![EKS](images/pods1.png)
+       
+   Jenkins Pipelines:
+ ![EKS](images/pipeline1.png)
+ ![EKS](images/pipeline2.png)
+   
 
-
+ 
 6)	Instrumentation of CI/CD pipelines with monitoring to present number of deployments, using a presentation layer like Grafana.
+
+
 
 A High-level architecture to demonstrate how you approached the problem and your solution is required.
 Explanation of the code and working demo of Jenkins pipeline is required.
