@@ -51,16 +51,18 @@ Neo Airlines container platform is built on AWS EKS(Elastic Kubernetes Service) 
 ![EKS](images/eksconsole.png)
 ![EKS](images/eksnodes.png)
 
-
- 
-    
-                 
-        
-    
-    
+   
 3)	Provisioned infrastructure should be well defined with proper tagging and naming conventions.
+![EKS](images/tagjenkins.png)
+![EKS](images/tagnodes.png)
+
 4)	Provisioned infrastructure and deployed services should be secured and have well defined security groups and ACL’s to restrict access.
+![EKS](images/secjenkins.png)
+![EKS](images/secnode.png)
+
 5)	Deploy “Your JAR/WAR” file using the CI/CD pipeline to Test.
+
+
 6)	Instrumentation of CI/CD pipelines with monitoring to present number of deployments, using a presentation layer like Grafana.
 
 A High-level architecture to demonstrate how you approached the problem and your solution is required.
