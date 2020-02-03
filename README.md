@@ -87,6 +87,11 @@ Branch : develop
 
 https://github.com/assign101/monitoring.git
 
+http://13.211.175.157:3000/d/haryan-jenkins/jenkins-performance-and-health-overview?orgId=1
+Credentials: admin:admin
+![EKS](images/jenkins_grafana.png)
+
+
 A High-level architecture to demonstrate how you approached the problem and your solution is required.
 Explanation of the code and working demo of Jenkins pipeline is required.
 
